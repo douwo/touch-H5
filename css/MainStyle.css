@@ -1,0 +1,149 @@
+* {
+	font-family: "微软雅黑";
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.ani {
+	position: absolute;
+}
+
+.circle {
+	display: inline-block;
+	height: 2.5vh;
+	width: 2.5vh;
+	background-color: aquamarine;
+	border-radius: 100%;
+	vertical-align: middle;
+	position: relative;
+	right: 10px;
+	bottom: 2px;
+}
+.maka-Arrow{
+	position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+    z-index: 10;
+    animation-name: arrowing;
+    -webkit-animation-name: arrowing;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.music-img{
+	position: absolute;
+	top: 3vh;
+	right: 3vh;
+	height: 5vh;
+	width: 5vh;
+	z-index: 10;
+}
+.upAndDown {
+	animation: upAndDown ease-in-out infinite;
+	animation-direction: alternate;
+}
+
+@keyframes upAndDown {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(10px);
+	}
+}
+
+@keyframes arrowing{
+	0% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    opacity: 0.8;
+	}
+	
+	50% {
+	    -webkit-transform: translateY(10px);
+	    transform: translateY(10px);
+	    opacity: 1;
+	}
+	100% {
+	    -webkit-transform: translateY(-5px);
+	    transform: translateY(-5px);
+	    opacity: 0.8;
+	}
+}
+
+.page01>img{height: 480px;width: 320px;bottom: 0;left: 0;}
+
+.page02>img:nth-child(1){height: 56px;width: 300px;top: 33px;left: 2px;}
+.page02>div:nth-child(2){height: 56px;width: 300px;top: 52px;left: 95px;font-size: 3.1vh}
+.page02>div:nth-child(3){height: 180px;width: 320px;top: 110px;left: 0px;background: gainsboro;}
+.page02>div:nth-child(4){height: 56px;width: 320px;top: 330px;left: 35px;font-size: 2.5vh;}
+
+.page03>img:nth-child(1),.page04>img:nth-child(1),.page05>img:nth-child(1),.page06>img:nth-child(1){height: 56px;width: 300px;top: 33px;left: 0px;}
+.page03>img:nth-child(2),.page04>img:nth-child(2),.page05>img:nth-child(2),.page06>img:nth-child(2){height: 14px;width: 160px;top: 56px;left: 105px;}
+.page03>div:nth-child(3),.page04>div:nth-child(3),.page05>div:nth-child(3),.page06>div:nth-child(3){height: 56px;width: 300px;top: 82px;left: 115px;font-size: 2.3vh;color: rgba(255,0,0,0.7);}
+.page03>img:nth-child(4),.page04>img:nth-child(4),.page05>img:nth-child(4),.page06>img:nth-child(4){height: 160px;width: 320px;top: 100px;left: -10px;}
+.page03>img:nth-child(5),.page04>img:nth-child(5),.page05>img:nth-child(5),.page06>img:nth-child(5){height: 70px;width: 120px;top: 130px;left: 160px;}
+.page03>img:nth-child(6),.page04>img:nth-child(6),.page05>img:nth-child(6),.page06>img:nth-child(6){height: 22px;width: 240px;top: 230px;left: 50px;}
+.page03>img:nth-child(7),.page04>img:nth-child(7),.page05>img:nth-child(7),.page06>img:nth-child(7){height: 160px;width: 320px;top: 265px;left: 10px;}
+.page03>img:nth-child(8),.page04>img:nth-child(8),.page05>img:nth-child(8),.page06>img:nth-child(8){height: 70px;width: 120px;top: 295px;left: 45px;}
+.page03>img:nth-child(9),.page04>img:nth-child(9),.page05>img:nth-child(9),.page06>img:nth-child(9){height: 22px;width: 200px;top: 395px;right: 80px;}
+
+.page07>img:nth-child(1){height: 56px;width: 300px;top: 33px;left: 0px;}
+.page07>img:nth-child(2){height: 14px;width: 160px;top: 56px;left: 105px;}
+.page07>img:nth-child(3){height: 200px;width: 300px;top: 35px;left: 10px;}
+.page07>img:nth-child(4){height: 200px;width: 300px;top: 35px;left: 10px;}
+.page07>img:nth-child(5){height: 200px;width: 300px;top: 35px;left: 10px;}
+.page07>img:nth-child(6){height: 200px;width: 300px;top: 35px;left: 10px;}
+.page07>img:nth-child(7){height: 200px;width: 260px;top: 230px;left: 30px;}
+
+.page08>img:nth-child(1){height: 56px;width: 300px;top: 33px;left: 0px;}
+.page08>img:nth-child(2){height: 14px;width: 160px;top: 56px;left: 105px;}
+.page08>img:nth-child(3){height: 120px;width: 240px;top: 90px;left: 40px;}
+.page08>img:nth-child(4){height: 200px;width: 260px;top: 230px;left: 30px;}
+
+.page09>img:nth-child(1){height: 56px;width: 300px;top: 33px;left: 0px;}
+.page09>img:nth-child(2){height: 16px;width: 180px;top: 54px;left: 100px;}
+.page09>img:nth-child(3){height: 130px;width: 260px;top: 90px;left: 25px;}
+.page09>img:nth-child(4){height: 130px;width: 260px;top: 250px;left: 30px;}
+.page09>img:nth-child(5){height: 50px;width: 250px;top: 390px;left: 35px;}
+
+.page10>img:nth-child(1),.page11>img:nth-child(1),.page12>img:nth-child(1){height: 180px;width: 300px;top: 50px;left: 0px;}
+.page10>img:nth-child(2),.page11>img:nth-child(2),.page12>img:nth-child(2){height: 220px;width: 300px;top: 210px;left: 0px;}
+.page11>img:nth-child(1),.page12>img:nth-child(1){height: 200px;}
+
+.page13>img:nth-child(1),.page14>img:nth-child(1){height: 56px;width: 300px;top: 33px;left: 0px;z-index: 2;}
+.page13>img:nth-child(2),.page14>img:nth-child(2){height: 14px;width: 160px;top: 56px;left: 105px;z-index: 3;}
+.page13>img:nth-child(3),.page14>img:nth-child(3){height: 190px;width: 270px;top: 80px;left: 25px;}
+.page13>img:nth-child(4),.page14>img:nth-child(4){height: 190px;width: 270px;top: 270px;left: 25px;}
+
+.page15>img:nth-child(1),.page16>img:nth-child(1),.page17>img:nth-child(1),.page18>img:nth-child(1){height: 480px;width: 270px;top: 0px;left: 25px;z-index: 1;}
+.page15>div:nth-child(2),.page16>div:nth-child(2),.page17>div:nth-child(2),.page18>div:nth-child(2){height: 200px;width: 330px; top: 75px;left:0;font-size: 1.8vh;z-index: 2;text-align: center;}
+.page15>div:nth-child(3),.page16>div:nth-child(3),.page17>div:nth-child(3),.page18>div:nth-child(3){height: 292px;width: 230px;top: 104px;left: 45px;z-index: 1;}
+.page16>div:nth-child(3){left: 47px;}
+
+.page19>img{height: 430px;width: 320px;top: 26px;left: 0;}
+
+.page20>img:nth-child(1){height: 430px;width: 320px;top: 26px;left: 0;}
+.page20>img:nth-child(2){height: 45px;width: 50px;top: 67px;left: 261px;}
+.page20>img:nth-child(3){height: 45px;width: 50px;top: 67px;left: 6px;}
+.page20>img:nth-child(4){height: 45px;width: 50px;top: 370px;left: 6px;}
+.page20>img:nth-child(5){height: 45px;width: 50px;top: 370px;left: 261px;}
+.page20>img:nth-child(6){height: 70px;width: 90px;top: 210px;left: 10px;}
+.page20>img:nth-child(7){height: 70px;width: 90px;top: 210px;left: 220px;transform: rotate(20deg);}
+
+
